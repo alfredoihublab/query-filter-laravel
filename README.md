@@ -13,3 +13,8 @@ Install package via composer:
 ```php
 composer install fguzman/query-filter-laravel
 ```
+
+
+## Security
+
+If you find any security issues, please email us at felipe-guzman.c@hotmail.com
