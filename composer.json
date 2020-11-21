@@ -1,0 +1,31 @@
+{
+    "name": "fguzman/query-filter-laravel",
+    "description": "Easy apply filters to your querys for eloquent orm by course panel styde",
+    "type": "library",
+    "require": {
+        "php": "^7.2.5",
+        "laravel/framework": "6.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4",
+        "orchestra/testbench": "^4.0",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fguzman\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": ["Fguzman\\QueryBuilderServiceProvider"]
+        }
+    }
+}
