@@ -1,8 +1,8 @@
 <?php
 namespace Fguzman;
 
-use Fguzman\Commands\MakeQuery;
 use Fguzman\Commands\MakeFilter;
+use Fguzman\Commands\MakeQuery;
 use Illuminate\Support\ServiceProvider;
 
 class QueryFilterServiceProvider extends ServiceProvider
