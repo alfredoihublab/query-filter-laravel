@@ -67,7 +67,4 @@ class MakeQuery extends GeneratorCommand
             ['name', InputArgument::REQUIRED, 'The name of the query class.'],
         ];
     }
-
-
 }
-
