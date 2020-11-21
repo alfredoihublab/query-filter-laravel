@@ -1,0 +1,19 @@
+<?php
+
+namespace DummyNamespace;
+
+use Fguzman\QueryFilter;
+
+class DummyFilterClass extends QueryFilter
+{
+    /**
+     * Get the validation rules that apply to the request filter
+     * @return array
+     */
+    public function rules(): array
+    {
+        return [
+            //
+        ];
+    }
+}

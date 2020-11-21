@@ -1,0 +1,10 @@
+<?php
+
+namespace Fguzman;
+
+use Fguzman\QueryBuilder;
+
+class DummyQueryClass extends QueryBuilder
+{
+    //
+}
