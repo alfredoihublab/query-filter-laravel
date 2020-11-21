@@ -11,7 +11,7 @@ composer --version
 Install package via composer:
 
 ```php
-composer install fguzman/query-filter-laravel
+composer require fguzman/query-filter-laravel
 ```
 
 
