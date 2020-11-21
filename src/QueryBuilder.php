@@ -3,8 +3,8 @@
 namespace Fguzman;
 
 use BadMethodCallException;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\Facades\DB;
 
 class QueryBuilder extends Builder
 {
@@ -13,9 +13,10 @@ class QueryBuilder extends Builder
      * Apply filters in the model query
      *
      */
-    public function applyFilters(QueryBuilder $filter = null,array $data = null)
+    public function applyFilters(QueryBuilder $filter = null, array $data = null)
     {
-        return $this->filterBy($filter ?: $this->newQueryFilter(), $data ?: request()->all());    }
+        return $this->filterBy($filter ?: $this->newQueryFilter(), $data ?: request()->all());
+    }
     /**
      * return a new filter instance to apply
      */

@@ -8,6 +8,5 @@ class QueryFilterServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        
     }
 }

@@ -2,10 +2,10 @@
 
 namespace Tests\Filters;
 
-use Tests\UserQuery;
-use Fguzman\Sortable;
 use Fguzman\QueryFilter;
 use Fguzman\Rules\SortableColumn;
+use Fguzman\Sortable;
+use Tests\UserQuery;
 
 class UserFilter extends QueryFilter
 {
