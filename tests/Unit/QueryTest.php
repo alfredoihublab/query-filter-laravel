@@ -2,9 +2,9 @@
 
 namespace Tests\Unit;
 
-use Tests\User;
-use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Tests\TestCase;
+use Tests\User;
 
 class QueryTest extends TestCase
 {
@@ -53,15 +53,16 @@ class QueryTest extends TestCase
             'email'  => 'deli@test.com'
         ]);
 
-        $this->assertContains('Delia',
+        $this->assertContains(
+            'Delia',
             User::query()->applyFilters(null, ['search' => 'Delia'])
                         ->get()->pluck('name')->toArray()
         );
-        $this->assertNotContains('Felipe',
+        $this->assertNotContains(
+            'Felipe',
             User::query()->applyFilters(null, ['search' => 'Delia'])
                     ->get()->pluck('email')->toArray()
         );
-
     }
     /** @test */
     function apply_filter_by_email()
@@ -75,14 +76,15 @@ class QueryTest extends TestCase
             'email'  => 'deli@test.com'
         ]);
 
-        $this->assertContains('felipe@test.com',
+        $this->assertContains(
+            'felipe@test.com',
             User::query()->applyFilters(null, ['search' => 'felipe@test.com'])
                         ->get()->pluck('email')->toArray()
         );
-        $this->assertNotContains('deli@test.com',
+        $this->assertNotContains(
+            'deli@test.com',
             User::query()->applyFilters(null, ['search' => 'felipe@test.com'])
                     ->get()->pluck('email')->toArray()
         );
     }
 }
-

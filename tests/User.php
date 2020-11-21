@@ -2,13 +2,12 @@
 
 namespace Tests;
 
-use Tests\UserQuery;
-use Tests\Filters\UserFilter;
 use Illuminate\Database\Eloquent\Model;
+use Tests\Filters\UserFilter;
+use Tests\UserQuery;
 
 class User extends Model
 {
-
     protected $guarded = [];
 
     /**

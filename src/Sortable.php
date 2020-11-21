@@ -21,7 +21,6 @@ class Sortable
             return [Str::substr($sort, 0, -5), 'desc'];
         } else {
             return [Str::substr($sort, 0, -4), 'asc'];
-
         }
     }
 }
