@@ -3,11 +3,11 @@
     "description": "Easy apply filters to your querys for eloquent orm by course panel styde",
     "type": "library",
     "require": {
-        "php": "^7.2.5",
-        "laravel/framework": "6.*"
+        "php": "^7.2.5|^8.0",
+        "laravel/framework": "6.*|^7.0|^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.4",
+        "phpunit/phpunit": "^8.4|8.5.8|^9.3.3",
         "orchestra/testbench": "^4.0",
         "friendsofphp/php-cs-fixer": "^2.16"
     },
