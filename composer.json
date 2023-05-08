@@ -1,5 +1,5 @@
 {
-    "name": "fguzman/query-filter-laravel",
+    "name": "alfredoihublab/query-filter-laravel",
     "description": "Easy apply filters to your querys for eloquent orm by course panel styde",
     "type": "library",
     "require": {
