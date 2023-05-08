@@ -3,7 +3,7 @@
     "description": "Easy apply filters to your querys for eloquent orm by course panel styde",
     "type": "library",
     "require": {
-        "php": "^7.2.5|^8.0",
+        "php": "^7.2.5|^8.0|^8.1",
         "laravel/framework": "6.0|^7.0|^8.0|^9.0"
     },
     "require-dev": {
